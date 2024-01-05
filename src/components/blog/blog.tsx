@@ -114,13 +114,13 @@ const Blog: React.FC = () => {
         <div className='flex flex-row gap-2'>
           <a
             href='#'
-            className='inline-block rounded-md border border-transparent bg-transparent border-green-800 text-green-800 px-8 py-3 mb-4 text-base font-medium hover:bg-green-800 hover:text-white'
+            className='inline-block rounded-md border bg-transparent border-green-800 text-green-800 px-8 py-3 mb-4 text-base font-medium hover:bg-green-800 hover:text-white'
           >
             Empresas Europeias
           </a>
           <a
             href='#'
-            className='inline-block rounded-md border border-transparent bg-transparent border-green-800 text-green-800 px-8 py-3 mb-4 text-base font-medium hover:bg-green-800 hover:text-white'
+            className='inline-block rounded-md border bg-transparent border-green-800 text-green-800 px-8 py-3 mb-4 text-base font-medium hover:bg-green-800 hover:text-white'
           >
             Empresas Americanas
           </a>

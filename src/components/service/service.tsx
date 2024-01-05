@@ -54,7 +54,7 @@ const Service: React.FC = () => {
       <div className='flex items-center'>
         <a
           href='#'
-          className='inline-block rounded-md border border-transparent bg-transparent border-green-800 text-green-800 px-8 py-3 mb-4 text-base font-medium hover:bg-green-800 hover:text-white'
+          className='inline-block rounded-md border bg-transparent border-green-800 text-green-800 px-8 py-3 mb-4 text-base font-medium hover:bg-green-800 hover:text-white'
         >
           Perguntas Frequentes
         </a>

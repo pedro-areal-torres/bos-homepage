@@ -28,7 +28,7 @@ const About: React.FC = () => {
             </p>
           </div>
           <div className='mt-36 flex justify-end gap-8 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0 border border-gray-300 py-28'>
-            <p>
+            <p className='text-center'>
               Imagem do César + Respetivos Certificados (igual ao que está neste
               momento)
             </p>

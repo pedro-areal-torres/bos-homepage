@@ -12,8 +12,8 @@ const Newsletter: React.FC = () => {
             Enviamos artigos (texto exemplificativo)
           </p>
           <form action='#'>
-            <div className='items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0'>
-              <div className='relative w-full'>
+            <div className='items-center mx-auto space-y-4 max-w-screen-sm sm:flex sm:space-y-0 flex-wrap gap-6 justify-center'>
+              <div className='relative w-full flex'>
                 <label className='hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300'>
                   Email
                 </label>
@@ -39,7 +39,7 @@ const Newsletter: React.FC = () => {
               <div>
                 <button
                   type='submit'
-                  className='w-60 py-3 px-5 text-sm font-medium text-center text-white rounded-lg ring-1 ring-inset ring-white cursor-pointer bg-primary-700 sm:rounded-none sm:rounded-r-lg hover:bg-primary-800 focus:ring-4 dark:focus:ring-primary-800'
+                  className='w-60 py-3 px-5 text-sm font-medium text-center text-white rounded-lg ring-1 ring-inset ring-white cursor-pointer bg-primary-700 sm:rounded-lg hover:bg-white hover:text-green-800 focus:ring-4 dark:focus:ring-primary-800'
                 >
                   Junte-se à nossa newsletter
                 </button>
