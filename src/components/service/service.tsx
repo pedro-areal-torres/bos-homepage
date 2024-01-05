@@ -7,7 +7,7 @@ import {
 } from '@heroicons/react/24/outline';
 import Card from '../cards/card';
 
-const Service = () => {
+const Service: React.FC = () => {
   return (
     <div
       id='servico'

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Newsletter = () => {
+const Newsletter: React.FC = () => {
   return (
     <section className='bg-white dark:bg-green-800'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>

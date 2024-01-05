@@ -1,5 +1,4 @@
 import React from 'react';
-import Blog from './blog/Blog';
 
 import Newsletter from './newsletter/newsletter';
 import About from './about/about';
@@ -7,8 +6,9 @@ import Testimonials from './testimonials/testimonials';
 import Roic from './roic/roic';
 import Presentation from './presentation/presentation';
 import Service from './service/service';
+import Blog from './blog/blog';
 
-const Main = () => {
+const Main: React.FC = () => {
   return (
     <div className='grid'>
       <Presentation />

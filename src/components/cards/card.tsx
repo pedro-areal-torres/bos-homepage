@@ -1,6 +1,12 @@
 import React from 'react';
 
-const Card = ({ img, title, description }) => {
+interface Props {
+  img: React.ReactNode;
+  title: string;
+  description: string;
+}
+
+const Card: React.FC<Props> = ({ img, title, description }) => {
   return (
     <div className='w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow'>
       <div className='flex flex-col items-center py-6'>

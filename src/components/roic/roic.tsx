@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Roic = () => {
+const Roic: React.FC = () => {
   return (
     <div id='rentabilidade' className='pb-12'>
       <div className='mx-auto max-w-2xl text-center'>

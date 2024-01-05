@@ -1,4 +1,5 @@
 import React from 'react';
+
 const testimonials = [
   {
     body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
@@ -48,10 +49,9 @@ const testimonials = [
         'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
   },
-  // More testimonials...
 ];
 
-const Testimonials = () => {
+const Testimonials: React.FC = () => {
   return (
     <div className='bg-white py-16'>
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const About: React.FC = () => {
   return (
     <div className='overflow-hidden bg-gray-100'>
       <div className='mx-auto max-w-7xl px-6 pt-14 sm:pt-60 lg:px-8 lg:pt-12 pb-12 flex flex-col gap-4'>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Blog = () => {
+const Blog: React.FC = () => {
   const posts = [
     {
       id: 1,

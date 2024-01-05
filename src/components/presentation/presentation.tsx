@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Presentation = () => {
+const Presentation: React.FC = () => {
   return (
     <div className='bg-green-800'>
       <div className='relative mx-auto flex max-w-3xl flex-col items-center px-6 py-32 text-center pt-44 lg:px-0'>
