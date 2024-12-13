@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Import sections as a group for cleaner imports
 import Newsletter from './newsletter/newsletter';
 import About from './about/about';
 import Testimonials from './testimonials/testimonials';
@@ -8,21 +9,25 @@ import Presentation from './presentation/presentation';
 import Service from './service/service';
 import Blog from './blog/blog';
 
+const SectionDivider: React.FC<{ className?: string }> = ({ className }) => (
+  <hr className={`border-grey-600 ${className || ''}`} />
+);
+
 const Main: React.FC = () => {
   return (
-    <div className='grid'>
+    <main className='grid'>
       <Presentation />
-      <hr className='border-green-600 h-1' />
+      <SectionDivider className='h-1 border-green-600' />
       <Blog />
-      <hr className='border-grey-600' />
+      <SectionDivider />
       <Service />
-      <hr className='border-grey-600 py-6' />
+      <SectionDivider className='py-6' />
       <Roic />
-      <hr className='border-grey-600' />
+      <SectionDivider />
       <About />
       <Testimonials />
       <Newsletter />
-    </div>
+    </main>
   );
 };
 
