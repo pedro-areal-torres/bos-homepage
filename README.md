@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Borja On Stocks - Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based web application developed to create the homepage for the website [Borja On Stocks](https://borjaonstocks.com/). It utilizes modern web development tools and practices to ensure a fast and user-friendly experience.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite**: A fast build tool for modern web projects.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript for improved code quality and maintainability.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To set up and run the project locally, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
+  ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+  ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Install the dependencies:
+  ```bash
+    npm install
+  ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Start the development server:
+  ```bash
+    npm run dev
+  ```
+
+4. Open your browser and navigate to http://localhost:5173 to view the application.
+
+## Scripts
+
+- `npm run dev`: Start the development server.
+- `npm run build`: Create a production build of the application.
+- `npm run preview`: Preview the production build locally.
+
+## Key Features
+
+- **Responsive Design**: The homepage is designed to provide a great user experience on all devices.
+- **Fast Development**: Powered by Vite for fast and efficient development workflows.
+- **Type Safety**: Built with TypeScript for robust and maintainable code.
+
+## Notes
+
+- This project is set up with ESLint for code linting and quality checks.
+- To adjust linting rules, modify the `.eslintrc.cjs` file as needed.
