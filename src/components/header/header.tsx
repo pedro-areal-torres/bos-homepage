@@ -10,6 +10,22 @@ const Header: React.FC = () => {
           <span className='text-2xl font-semibold'>Logotipo BoS</span>
         </a>
 
+        {/* Navigation Links */}
+        <div id='navbar-sticky' className='hidden w-full items-center justify-between md:flex md:w-auto'>
+          <ul className='mt-4 flex flex-col space-y-2 md:mt-0 md:flex-row md:space-x-8 md:space-y-0'>
+            {navItems.map((item) => (
+              <li key={item.label}>
+                <a
+                  href={item.href}
+                  className='block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700'
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         {/* Action Buttons */}
         <div className='flex items-center gap-2 space-x-3 rtl:space-x-reverse'>
           <button
@@ -45,22 +61,6 @@ const Header: React.FC = () => {
               />
             </svg>
           </button>
-        </div>
-
-        {/* Navigation Links */}
-        <div id='navbar-sticky' className='hidden w-full items-center justify-between md:flex md:w-auto'>
-          <ul className='mt-4 flex flex-col space-y-2 md:mt-0 md:flex-row md:space-x-8 md:space-y-0'>
-            {navItems.map((item) => (
-              <li key={item.label}>
-                <a
-                  href={item.href}
-                  className='block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700'
-                >
-                  {item.label}
-                </a>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </nav>
