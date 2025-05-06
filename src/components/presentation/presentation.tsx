@@ -3,7 +3,7 @@ import React from 'react';
 const Presentation: React.FC = () => {
   return (
     <section className='bg-green-800'>
-      <div className='relative mx-auto flex max-w-3xl flex-col items-center px-6 py-32 text-center lg:px-0'>
+      <div className='relative mx-auto flex max-w-3xl flex-col items-center px-6 py-32 text-center lg:px-0 lg:pt-44'>
         {/* Header */}
         <h1 className='text-4xl font-bold tracking-tight text-white lg:text-6xl'>
           Serviço Profissional de Apoio ao Investidor em Ações
